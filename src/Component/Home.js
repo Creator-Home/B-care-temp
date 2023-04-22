@@ -53,9 +53,10 @@ function Home() {
         
 
       </div>
-      
-      {/* <Guide/> */}
-      <div className='flex space-x-0'>
+      <div className='mt-0 '>
+      <Guide/>
+      </div>
+      <div className='flex space-x-0 mt-0'>
       <Card />
       <Card />
       <Card />
