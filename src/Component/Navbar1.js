@@ -25,8 +25,8 @@ function Header() {
                     <li><a href="/SelfCheck">Check Yourself</a></li>
                   </ul>
                 </li>
-                <li className="scroll-to-section"><a href="#future">Future Plan</a></li>
-                <li className="scroll-to-section"><a href="#frequently-question">Breast Exam</a></li>
+                <li className="scroll-to-section"><a href="/user">User</a></li>
+                <li className="scroll-to-section"><a href="/doctors">Doctors</a></li>
                 <li className="scroll-to-section"><a href="/login">Login/Signup</a></li>
                 <li className="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
               </ul>

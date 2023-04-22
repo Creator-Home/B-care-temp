@@ -8,11 +8,16 @@ import PeriodTracker from './Component/PeriodTracker';
 import Footer from './Component/Footer';
 import Analyser from './Component/Analyser';
 import SelfCheck from './Component/SelfCheck';
+import  Home from './Component/Home';
+import UserPage from './Component/UserPage';
 
 function App() {
   return (
     <>
-      <Navbar />
+    {/* <UserPage/> */}
+    
+       <Home />
+       {/* <Navbar /> */}
       <BrowserRouter>
         <Routes>
           <Route exact path="/" component={Home} />
@@ -24,18 +29,11 @@ function App() {
           <Route path="/selfcheck" element={<SelfCheck/>} />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
 
-function Home() {
-  return (
-    <>
-      <h1>Welcome to my website!</h1>
-      <p>Here you can find information about my projects and interests.</p>
-    </>
-  );
-}
+ 
 
 export default App;
