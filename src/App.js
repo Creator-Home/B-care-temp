@@ -16,12 +16,12 @@ function App() {
     <>
     {/* <UserPage/> */}
     
-       <Home />
+       {/* <Home /> */}
        {/* <Navbar /> */}
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/nav" component={Navbar} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/user" element={<UserPage />} />
           <Route path="/login" element={<LoginUser />} />
           <Route path="/Register" element={<RegisterUser />} />
           <Route path="/PeriodTracker" element={<PeriodTracker/>} />

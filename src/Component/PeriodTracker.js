@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Calendar from "react-calendar";
  import "./Period.css"
 import 'react-calendar/dist/Calendar.css';
-
+import Navbar1 from "./Navbar1"
  import period1 from "./period1.avif";
 
 import Moment from "react-moment";
@@ -19,6 +19,7 @@ const cycleLength = parseInt(cycle);
 
 return (
 	<>
+    <Navbar1 />
      <div className="flex ">
          <img className=" w-1/2 p-4 periodImg" src={period1}></img>
          <div className="text-center  w-1/2 p-4  pink-300 mt-40">

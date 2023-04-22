@@ -6,10 +6,13 @@ import Typewriter from "typewriter-effect";
  import step3 from "./bstep3.webp";
  import step4 from "./bstep4.webp";
  import step5 from "./bstep5.webp";
+ import Navbar1 from "./Navbar1";
 import '../index.css';
+ 
 function SelfCheck(){
     return (
         <>
+        <Navbar1 />
         <div className="w-full p-20 bg-white-100  flex">
             <div className="mt-48">
         <h1 className='absolute flex items-end text-pink-400  font-normal font-AksaraBaliGalang text-5xl'> You  are here because  </h1>
